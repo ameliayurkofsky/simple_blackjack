@@ -1,8 +1,4 @@
-#ISYE6644
-#Mini Project 1: Let's Gamble
-#Yurkofsky
 
-#Things you can change in this simulation!
 B = 300  #number of games played for each strategy
 set.seed(6) #seed
 
