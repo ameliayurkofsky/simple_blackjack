@@ -1,6 +1,4 @@
 # simple_blackjack
-Simulating a few strategies for playing a simple game of blackjack. 
-
 This project tests the efficacy of six different strategies a player could use when playing the card game blackjack. The strategies tested focused on the optimal threshold for determining whether to ‘hit’, i.e.., take another card, or ‘stay’, i.e., not take another card. To do this I created a script in R that simulated 2,000 hands of blackjack where players were assigned a threshold of 14, 15, 16, 17, 18, or 19. The average probability of winning was taken for each of the strategies and the strategy with the highest average probability of winning was deemed the most successful. Under the assumptions that there was one dealer, one player, one deck of cards, and, in the case of a tie, that the win went to the dealer, I found that a player choosing a strategy of ‘hitting’ when their hand totaled less than or equal to 17 was the most successful (a win rate of 27.20%), followed very closely by ‘hitting’ when their hand totaled less than or equal to 16 (a win rate of 27.15%).
 
 Given that there are many different versions of blackjack rules, to simplify the analysis, I chose relatively standard house rules, with a few modifications:
